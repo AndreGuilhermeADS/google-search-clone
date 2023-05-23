@@ -207,3 +207,58 @@ aside {
     font-size: 14px;
     text-decoration: none;
 }
+
+
+/* galeria aside */
+
+#gallery-box {
+    height: 186px;
+    position: relative;
+}
+
+#first-img{
+    border-top-left-radius: 10px;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 305px;
+    height: 186px;
+    position: absolute;
+    top: 0;
+    left: 149px;
+}
+
+#gallery div {
+    flex: 1 1 30%; /*largura dos elementos*/
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#gellery-img1 {
+    background-image: url();
+}
+
+#gellery-img2 {
+    background-image: url();
+}
+
+#gellery-img3 {
+    background-image: url();
+}
+
+#gellery-img4 {
+    background-image: url();
+}
+
+#gellery-img5 {
+    background-image: url();
+}
+
+#gellery-img6 {
+    background-image: url();
+}
